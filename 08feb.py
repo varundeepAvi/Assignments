@@ -45,7 +45,7 @@ print(result)
 
 
 
-"""Define a custom exception class called InvalidInputError. Write a function that takes user input (an integer) and raises this custom exception if the input is not a positive integer. Use a try-except block to catch this custom exception and print an error message.
+"""3.Define a custom exception class called InvalidInputError. Write a function that takes user input (an integer) and raises this custom exception if the input is not a positive integer. Use a try-except block to catch this custom exception and print an error message.
 
 """
 
@@ -130,7 +130,7 @@ else :
 
 
 
-"""Write a function that accepts a number as input and uses a custom exception AssertionError to raise an error if the number is negative. Use an assert statement to check this condition"""
+"""6.Write a function that accepts a number as input and uses a custom exception AssertionError to raise an error if the number is negative. Use an assert statement to check this condition"""
 
 class  NegativeNumberError(AssertionError):
      pass
